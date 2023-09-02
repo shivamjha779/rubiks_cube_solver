@@ -61,6 +61,18 @@ build CMakeFiles/rubiks_cube_solver.dir/Model/RubiksCube.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\rubiks_cube_solver.dir
   OBJECT_FILE_DIR = CMakeFiles\rubiks_cube_solver.dir\Model
 
+build CMakeFiles/rubiks_cube_solver.dir/Model/RubiksCube1dArray.cpp.obj: CXX_COMPILER__rubiks_cube_solver_Debug C$:/Users/jhash/OneDrive/Desktop/rubiks-cube-solver/Model/RubiksCube1dArray.cpp || cmake_object_order_depends_target_rubiks_cube_solver
+  DEP_FILE = CMakeFiles\rubiks_cube_solver.dir\Model\RubiksCube1dArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubiks_cube_solver.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubiks_cube_solver.dir\Model
+
+build CMakeFiles/rubiks_cube_solver.dir/Model/RubiksCube3dArray.cpp.obj: CXX_COMPILER__rubiks_cube_solver_Debug C$:/Users/jhash/OneDrive/Desktop/rubiks-cube-solver/Model/RubiksCube3dArray.cpp || cmake_object_order_depends_target_rubiks_cube_solver
+  DEP_FILE = CMakeFiles\rubiks_cube_solver.dir\Model\RubiksCube3dArray.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rubiks_cube_solver.dir
+  OBJECT_FILE_DIR = CMakeFiles\rubiks_cube_solver.dir\Model
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target rubiks_cube_solver
@@ -69,7 +81,7 @@ build CMakeFiles/rubiks_cube_solver.dir/Model/RubiksCube.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable rubiks_cube_solver.exe
 
-build rubiks_cube_solver.exe: CXX_EXECUTABLE_LINKER__rubiks_cube_solver_Debug CMakeFiles/rubiks_cube_solver.dir/main.cpp.obj CMakeFiles/rubiks_cube_solver.dir/Model/RubiksCube.cpp.obj
+build rubiks_cube_solver.exe: CXX_EXECUTABLE_LINKER__rubiks_cube_solver_Debug CMakeFiles/rubiks_cube_solver.dir/main.cpp.obj CMakeFiles/rubiks_cube_solver.dir/Model/RubiksCube.cpp.obj CMakeFiles/rubiks_cube_solver.dir/Model/RubiksCube1dArray.cpp.obj CMakeFiles/rubiks_cube_solver.dir/Model/RubiksCube3dArray.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\rubiks_cube_solver.dir
