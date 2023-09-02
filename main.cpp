@@ -8,6 +8,8 @@ int main() {
     RubiksCubeBitboard objectBitboard;
 
     objectBitboard.print();
+    if (object3DArray.isSolved()) cout << "SOLVED\n\n";
+    else cout << "NOT SOLVED\n\n";
 
     return 0;
 }
