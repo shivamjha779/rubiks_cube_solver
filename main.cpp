@@ -29,6 +29,22 @@ int main() {
     cout << "\n";
     dfsSolver.rubiksCube.print();
 
+    //BFS Solver -----------------------------------------------------------------------------------------------------
+//    RubiksCubeBitboard cube;
+//    cube.print();
+//
+//    vector<RubiksCube::MOVE> shuffle_moves = cube.randomShuffleCube(6);
+//    for(auto move: shuffle_moves) cout << cube.getMove(move) << " ";
+//    cout << "\n";
+//    cube.print();
+//
+//    BFSSolver<RubiksCubeBitboard, HashBitboard> bfsSolver(cube);
+//    vector<RubiksCube::MOVE> solve_moves = bfsSolver.solve();
+//
+//    for(auto move: solve_moves) cout << cube.getMove(move) << " ";
+//    cout << "\n";
+//    bfsSolver.rubiksCube.print();
+
 
     return 0;
 }
